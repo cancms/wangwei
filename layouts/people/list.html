@@ -12,7 +12,7 @@
   <div class="row ">
       {{ with $block.content.title }}
         <div class="section-heading col-12 mb-3   ">
-          <h1 class="mb-0 hero-title ">{{ . | markdownify | emojify }}</h1>
+          <h1 class="mb-0 list-page-h1-heading ">{{ . | markdownify | emojify }}</h1>
             {{ with $block.content.subtitle }}<p class="mt-1">{{ . | markdownify | emojify }}</p>{{ end }}
         </div>
       {{ end }}
