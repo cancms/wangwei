@@ -6,25 +6,94 @@ type: home_index
 #subTitle: Animal Physiological Ecology and Conservation
 
 
+# 顶部轮播图
+top_slides:
+  block: slider
+  design:
+    # Slide height is automatic unless you force a specific height (e.g. '400px')
+    slide_height: '95vh'
+    is_fullscreen: false
+    # Automatically transition through slides?
+    loop: false
+    # Duration of transition between slides (in ms)
+    interval: 2000
 
-
+  content:
+    slides:
+      - title: "Decode and Modulate biological complexity"
+        content: "The Wang Group is dedicated to the orchestration of advanced chemical toolkits to decode and modulate biological complexity"
+        align: center
+        background:
+          image:
+            filename: top_slides/h1.jpg
+            filters:
+              brightness: 1
+          position: right
+          color: '#666'
+          
+      - title: "Decode and Modulate biological complexity"
+        content: "The Wang Group is dedicated to the orchestration of advanced chemical toolkits to decode and modulate biological complexity"
+        align: center
+        background:
+          image:
+            filename: top_slides/h2.png
+            filters:
+              brightness: 1
+          position: right
+          color: '#666'
+          
+      - title: "Decode and Modulate biological complexity"
+        content: "The Wang Group is dedicated to the orchestration of advanced chemical toolkits to decode and modulate biological complexity"
+        align: center
+        background:
+          image:
+            filename: top_slides/h3.jpg
+            filters:
+              brightness: 1
+          position: right
+          color: '#666'
+          
+      - title: "Decode and Modulate biological complexity"
+        content: "The Wang Group is dedicated to the orchestration of advanced chemical toolkits to decode and modulate biological complexity"
+        align: center
+        background:
+          image:
+            filename: top_slides/h4.png
+            filters:
+              brightness: 1
+          position: right
+          color: '#666'
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
 
 
 
 heroBlock:
   block: hero
   content:
-    title: Welcome to the Lab!
-    subtitle: About Wang Wei
+    title: Welcome to Wang Group!
+    subtitle: Executive Summary
 #    image:
 #      filename: research_topic.jpg
     text: |
-      He received his B.S. in Chemistry from Nanjing Normal University in 1988, followed by an M.S. in Organic Chemistry from the Shanghai Institute of Materia Medica, Chinese Academy of Sciences in 1993. He earned his Ph.D. in Organic Chemistry from North Carolina State University, USA, in 2000. He then completed postdoctoral training at the University of Arizona (2000-2001). Subsequently, he worked as a Senior Investigator at the Novartis Institute for Genomic Research, USA (2001-2003). He began his academic career as an Assistant Professor (2003-2008) and later became an Associate Professor (2008-2012) and then Full Professor (2012-2018) at the University of New Mexico, USA. In 2018, he joined the University of Arizona College of Pharmacy as the Coit Professor and Co-Director of the Center for Drug Discovery, a position he held until 2025.
-  
-      Throughout his career, he has authored over 350 research papers in prestigious journals such as Nature Catalysis, Nature Communications, Nature Cell Biology, Chem, Journal of the American Chemical Society (JACS), and Angewandte Chemie. He has also published one book and 17 book chapters, maintaining an H-index of 85. He holds 18 granted patents, including 12 in the United States and 6 in China. He has founded three biotechnology and new drug discovery startup companies.
       
-      In recognition of his contributions, he was elected as a Fellow of the American Institute for Medical and Biological Engineering (AIMBE). His awards include the Outstanding Basic Research Award from the University of Arizona Cancer Center (2023), the James Halpert Outstanding Research Award from the University of Arizona College of Pharmacy (2021), and the Distinguished Junior Faculty Research Award from the Chinese-American Chemistry and Chemical Biology Professors Association (2008).
-        
+      At the strategic interface of chemistry and biology, the Wang Group is dedicated to the orchestration of advanced chemical toolkits to decode and modulate biological complexity. We have established a robust, integrated research paradigm—spanning precision organic synthesis, transformative chemical biology, and AI-augmented drug discovery. Our mission is to engineer disruptive therapeutic strategies for global health challenges, specifically targeting oncology, neurodegeneration, and senescence.
+     
+      **Research Areas**
+      ### Precision Synthetic Methodology
+      Harnessing the power of asymmetric catalysis and photoredox chemistry to streamline the divergent construction of structurally complex and biologically privileged scaffolds. We focus on developing high-efficiency synthetic methodologies that provide rapid access to diverse chemical space for drug discovery.
+      ### Frontiers in Chemical Biology
+      Exploring click chemistry, proximity labeling, and sophisticated biomacromolecule modulation to elucidate and manipulate the underlying molecular logic of physiological and pathological processes. By developing novel chemical probes, we aim to visualize and control protein functions in their native biological environments.
+      ### AI-Driven Therapeutic Innovation
+      Integrating Artificial Intelligence with rational molecular design to accelerate the development of next-generation Targeted Protein Degradation (TPD) platforms. Notably, the group pioneers the SenoTAC (Senolytic-Targeted Chimera) strategy, providing a leading international framework for the selective clearance of senescent cells and the treatment of age-related diseases.
 
   
 heroSlideBlock:
@@ -38,7 +107,7 @@ heroSlideBlock:
         image:
           filename: group_slides/team-view.webp
           filters:
-            brightness: 1.1
+            brightness: 1
         position: right
         color: '#666'  
     # - title: 
