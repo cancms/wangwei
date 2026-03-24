@@ -72,7 +72,8 @@ body {
 .hero-title {
   font-size: 3.5rem;
   font-weight: bold;
-  border-bottom: 4px solid #2b7a78;
+  //border-bottom: 4px solid #2b7a78;
+  border-bottom: 4px solid $navbar-theme-bg-primary;
   display: inline-block;
   padding: 1rem 1rem 1rem 0;
 }
@@ -178,7 +179,8 @@ body {
       text-align: left;
       font-size: 2.5rem;
       font-weight: bold;
-      border-bottom: 4px solid #2b7a78;
+      //border-bottom: 4px solid #2b7a78;
+      border-bottom: 4px solid $navbar-theme-bg-primary;
       display: inline-block;
       padding: 1rem 1rem 0.5rem 0;
     }
@@ -213,7 +215,8 @@ body {
   .people-person:hover {
     transform: scale(1.01);
     box-shadow: 0 10px 25px rgba(21, 101, 192, .15) !important;
-    border-color: #2b7a78 !important;
+    //border-color: #2b7a78 !important;
+    border-color: $navbar-theme-bg-primary !important;
   }
 }
 
