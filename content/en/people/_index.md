@@ -13,7 +13,7 @@ sections:
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
           - Group Leader
-          - Postdoctoral Research Associate
+          - Postdoctoral Associate
           - Lab Administrator
           - PhD Student
           - Master Student
@@ -42,25 +42,25 @@ members_key_titles:
   work_experience: Work experience
 
 members:
-  - name: Dai Wangxuan
-    avatar: "images/members/dai-wang-heng.jpg"
+  - name: Wangxuan Dai
+    avatar: "images/members/dai-wang-heng.png"
     position: Research Assistant
-    join_date: January 28, 2026
+    join_date: January, 2026
     research: Stem Cell Aging
     work_experience: null
     education:
-      - degree: Master's Degree
+      - degree: Master
         institution: Sun Yat-sen University
         period: September 2018 – June 2021
-      - degree: Bachelor's Degree
+      - degree: Bachelor
         institution: Wenzhou Medical University
         period: September 2017 – June 2021
     email: wxdai@eitech.edu.cn
 
   - name: Kaixue Zhang
     avatar: "images/members/zhang-kai-xue.jpg"
-    position: Postdoctoral Research Fellow
-    join_date: January 6, 2026
+    position: Postdoctoral Fellow
+    join_date: January, 2026
     research: Chemical Biology
     work_experience:
       - position: Postdoctoral Fellow
@@ -105,10 +105,10 @@ members:
         period: Sep 2014 – Jun 2018
     email: yuezhong@eitech.edu.cn
 
-  - name: Li Hongyuan
+  - name: Hongyuan Li
     avatar: "images/members/li-hong-yuan.jpg"
     position: Research Assistant
-    join_date: February 24, 2026
+    join_date: February, 2026
     research: Medicinal Chemistry
     work_experience: null
     education:
@@ -120,17 +120,17 @@ members:
         period: Sep 2018 – Jun 2022
     email: hyli@eitech.edu.cn
 
-  - name: Sun Yaozong
+  - name: Yaozong Sun
     avatar: "images/members/sun-yao-zong.jpg"
     position: Research Assistant
-    join_date: March 2, 2026
+    join_date: March, 2026
     research: Chemical Biology
     work_experience: null
     education:
-      - degree: Master's degree
+      - degree: Master
         institution: Northwest University
         period: September 2022 - December 2025
-      - degree: Bachelor's degree
+      - degree: Bachelor
         institution: Yangtze University
         period: September 2017 - June 2021
     email: yzsun@eitech.edu.cn
@@ -142,10 +142,10 @@ members:
     research: Medicinal Chemistry
     work_experience: null
     education:
-      - degree: Master's Degree
+      - degree: Master
         institution: University of Chinese Academy of Sciences
         period: Sep 2022 – Jun 2025
-      - degree: Bachelor's Degree
+      - degree: Bachelor
         institution: East China University of Science and Technology
         period: Sep 2017 – Jun 2021
     email: yawang@eitech.edu.cn
