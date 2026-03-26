@@ -49,7 +49,7 @@
   </div>
 
 
-  <div class="page-body">
+  <div class="page-body {{with .Params.page_id}}{{.}}{{end}}">
     {{/* Breadcrumb */}}
     {{/* Don't apply to Book layout as that has different breadcrumb placement. */}}
     {{ if .Params.show_breadcrumb | and (ne .Type "book") }}

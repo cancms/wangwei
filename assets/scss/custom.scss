@@ -7,12 +7,15 @@ $navbar-theme-bg-primary:  #1a4d8c; //导航栏背景色
 $navbar-theme-text-primary:  #fff; //导航栏前景文字颜色
 $navbar-theme-top-line-primary:  #8dc015; //导航栏顶部横线颜色
 
+$option-bg1: #def2f1;  // 淡绿色bg
+
 $max_width: 1440px;
 
 
 
 body {
   //background-color: #def2f1;
+  //background-color: $option-bg1;
   font-family: Georgia,"Times new roman",Times,serif;
 }
 
@@ -161,6 +164,7 @@ body {
 .navbar {
   background-color: $navbar-theme-bg-primary;
   //background-color: #1565c0;
+  font-size: 1rem;
 }
 #navbar-main .main-menu-item ul li .nav-link {
   color: $navbar-theme-text-primary;
@@ -189,7 +193,11 @@ body {
 }
 
 
+.member_list_page {
+  //background-color: $option-bg1;
+}
 .people-list-wrap {
+
   .person-group-name {
     margin-top: 1rem;
     //border-bottom: 1px solid #68a8f1;
@@ -218,6 +226,50 @@ body {
     //border-color: #2b7a78 !important;
     border-color: $navbar-theme-bg-primary !important;
   }
+
+
+  .person-desc {
+    color: #666666;
+    flex: 1;
+
+    .wrap-bg {
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 0.3rem 0.9rem;
+      border-radius: 30px;
+      background: #e9f0f5;
+      //color: #1f6e6a;
+    }
+
+    .p-position {
+      text-align: right;
+    }
+
+    i {
+      color: #5d646d;
+      margin: 0.5rem 0.5rem 0.5rem 0;
+    }
+
+    .p-name {
+      font-weight: bold;
+      // color: #000000;
+      font-size: 1.2rem;
+    }
+
+    .wp-item {
+      font-size: 0.85rem;
+      margin: 0.5rem;
+      border-left: 2px solid #cfe2ec;
+      padding-left: 0.7rem;
+      line-height: 1.4;
+    }
+    .wp-period {
+      font-weight: bold;
+      margin-right: 1rem;
+    }
+
+  }
+
 }
 
 
@@ -295,7 +347,14 @@ body {
 }
 
 
-
+.page-footer {
+  margin: 2rem;
+  border-top: 1px solid #f0f0f0;
+}
+.nav-footer-center {
+  text-align: center;
+  margin-top: 2rem;
+}
 
 
 //手机
