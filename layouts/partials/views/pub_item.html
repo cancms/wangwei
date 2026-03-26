@@ -1,4 +1,5 @@
-{{ $item := . }}
+{{ $item := .item }}
+{{ $item_index := add .index 1 }}
 
 <div class="paper-item row view-citation" style="">
 
@@ -10,7 +11,7 @@
     </div>
   </div>
   <div class="col-12 col-md-9">
-    <div class="pub-title">{{ $item.title | markdownify | safeHTML}}</div>
+    <div class="pub-title">{{/* $item_index */}} {{ $item.title | markdownify | safeHTML}}</div>
     <div class="pub-author">{{ $item.authors_text | markdownify | safeHTML}}</div>
     <div class="pub-pages">
       <span class="j-name"> {{ $item.journal | markdownify | safeHTML}}</span>

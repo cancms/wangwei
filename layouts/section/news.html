@@ -1,0 +1,28 @@
+{{- define "main" -}}
+
+  {{ partial "page_header.html" . }}
+
+  <div class="universal-wrapper  page-news ">
+    {{ with .Content }}
+      <div class="article-style">{{ . }}</div>
+    {{ end }}
+
+
+
+    <div class="news-list-wrap mt-5">
+      {{ range $index, $item := .Params.news_list }}
+
+        <div class="news-item n-index{{$index}}    ">
+
+            {{$item | markdownify}}
+
+        </div>
+
+      {{ end }}
+    </div>
+
+
+
+  </div>
+
+{{- end -}}

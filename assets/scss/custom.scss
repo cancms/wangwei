@@ -193,9 +193,51 @@ body {
 }
 
 
+
+
+
+.page-research {
+
+  .research-item {
+    margin: 3rem 0 8rem 0;
+
+    .r-title {
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+  }
+  .r-img {
+    margin-bottom: 1rem;
+    // background-color: #e6e6e6;
+    display: flex;
+    padding-right: 3rem;
+    img {
+      margin: auto;
+    }
+  }
+
+  // 偶数行
+  .research-item:nth-of-type(even) {
+    .r-img {
+      order: 2; // 图片在右边
+    }
+  }
+
+
+}
+
+
+
+
 .member_list_page {
   //background-color: $option-bg1;
 }
+
+
+
+
+
+
 .people-list-wrap {
 
   .person-group-name {
@@ -370,7 +412,33 @@ body {
 }
 
 
+.page-news {
+  .news-list-wrap {
+    background: #fff;
+    //box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    //padding: 1.5rem;
+    margin: 0 0 2rem 0;
+    //transition: all .3s ease;
+    //border: 1px solid #f0f0f0;
+  }
 
+  .news-list-wrap:hover {
+    //transform: scale(1.01);
+    //box-shadow: 0 10px 25px rgba(21, 101, 192, .15) !important;
+    //border-color: $navbar-theme-bg-primary !important;
+  }
+  .news-item{
+    padding: 2rem 0;
+    border-top: 1px solid #e2e8f0;
+    strong{
+      margin-right: 0.5rem;
+    }
+  }
+  .news-item:last-child  {
+    border-bottom: none !important;
+  }
+}
 
 
 
