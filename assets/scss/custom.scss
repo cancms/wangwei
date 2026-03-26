@@ -441,7 +441,114 @@ body {
 }
 
 
+.page-join-us {
+  .position-card {
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 1rem;
+    margin:  0;
+    transition: all .3s ease;
+    border: 1px solid #f0f0f0;
+    height: 100%;
+  }
+  .position-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 32px rgba(26, 77, 140, 0.12);
+    border-color: #caddf0;
+  }
 
+  .card-header {
+    background: #ffffff;
+    padding: 1.6rem 1.8rem 0.8rem;
+    border-bottom: 2px solid #f0f4fa;
+  }
+
+  .position-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: $navbar-theme-bg-primary;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .position-title i {
+    font-size: 1.5rem;
+    color: $navbar-theme-bg-primary;
+    background: #eef3fc;
+    padding: 0.5rem;
+    border-radius: 1rem;
+  }
+
+  .position-sub {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #5a7c9c;
+    margin-top: 0.3rem;
+  }
+
+  .card-body {
+    padding: 1.4rem 1.8rem 1.8rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  .info-section {
+    margin-bottom: 0.2rem;
+  }
+
+  .section-label {
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: $navbar-theme-bg-primary;
+    margin-bottom: 0.6rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .section-label i {
+    font-size: 0.85rem;
+  }
+
+  .section-content {
+    font-size: 0.92rem;
+    //color: #2c4e6e;
+    line-height: 1.55;
+  }
+
+
+  .apply-wrap{
+    margin: 8rem 0 5rem 0;
+
+    h3 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: $navbar-theme-bg-primary;
+      margin-bottom: 1rem;
+    }
+
+    .apply-email {
+      background: #f0f6fe;
+      padding: 0.9rem 1.5rem;
+      border-radius: 1rem;
+      font-size: 1rem;
+      word-break: break-all;
+      margin: 0.8rem 0 1rem;
+      display: inline-block;
+      border: 1px solid #d9e6f5;
+    }
+  }
+
+
+}
 
 
 

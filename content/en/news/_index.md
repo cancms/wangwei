@@ -1,4 +1,5 @@
 ---
+
 title: News
 
 
@@ -8,7 +9,7 @@ news_list:
   
   - |
     **2023** Outstanding Basic Research Award: Professor Wang received the Outstanding Basic Research Award from the University of Arizona Cancer Research Center.
-    {{< image src="images/news/awards.jpg" style="height: 10rem;"  >}}
+    {{< image src="images/news/awards.jpg" style="height: 4rem;"  >}}
     
   - |
     **2021** James Halpert Distinguished Research Award: This prestigious award was given to Professor Wang for his outstanding contributions to drug discovery and pharmacology.  
