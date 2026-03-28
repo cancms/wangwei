@@ -51,10 +51,10 @@ members:
     education:
       - degree: Master
         institution: Sun Yat-sen University
-        period: September 2018 – June 2021
+        period: Sep 2018 – Jun 2021
       - degree: Bachelor
         institution: Wenzhou Medical University
-        period: September 2017 – June 2021
+        period: Sep 2017 – Jun 2021
     email: wxdai@eitech.edu.cn
 
   - name: Kaixue Zhang
@@ -68,7 +68,7 @@ members:
         period: Jan 2026-Present
       - position: Postdoctoral Fellow
         institution: University of Arizona
-        period: July 2025-Jan 2026
+        period: Jul 2025-Jan 2026
     education:
       - degree: Doctor
         institution: Nankai University
@@ -92,7 +92,7 @@ members:
         period: Jan 2026 – Present
       - position: Postdoctoral Fellow
         institution: University of Arizona
-        period: July 2025 – Jan 2026
+        period: Jul 2025 – Jan 2026
     education:
       - degree: Ph.D
         institution: China Pharmaceutical University
@@ -129,10 +129,10 @@ members:
     education:
       - degree: Master
         institution: Northwest University
-        period: September 2022 - December 2025
+        period: Sep 2022 - Dec 2025
       - degree: Bachelor
         institution: Yangtze University
-        period: September 2017 - June 2021
+        period: Sep 2017 - Jun 2021
     email: yzsun@eitech.edu.cn
 
   - name: Yingao Wang
@@ -158,17 +158,17 @@ members:
     work_experience:
       - position: Postdoctoral Fellow
         institution: Eastern Institute of Technology, Ningbo
-        period: March 2026 – Present
+        period: Mar 2026 – Present
       - position: Assistant Researcher
         institution: Lanzhou Institute of Chemical Physics, Chinese Academy of Sciences
-        period: August 2025 – January 2026
+        period: Aug 2025 – Jan 2026
     education:
       - degree: Ph.D.
         institution: Peking Union Medical College
-        period: September 2020 – June 2025
+        period: Sep 2020 – Jun 2025
       - degree: Bachelor
         institution: Shenyang Pharmaceutical University
-        period: September 2016 – June 2020
+        period: Sep 2016 – Jun 2020
     email: mqxu@eitech.edu.cn
     
     
