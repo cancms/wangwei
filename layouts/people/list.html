@@ -76,6 +76,24 @@
           </div>
 
 
+          {{ if $member.education }}
+            <div class="education-row">
+              <div class="p-work">
+                <i class="fas fa-graduation-cap"></i> {{ index $members_key_titles "education" | markdownify }}
+              </div>
+              <div class="work-list">
+                {{ range $index4, $education := $member.education }}
+                  <div class="wp-item">
+                    <span class="wp-period">{{ $education.period | markdownify }}</span>
+                    <span class="wp-position">{{ $education.degree | markdownify }}  · </span>
+                    <span class="wp-institution">{{ $education.institution | markdownify }}</span>
+                  </div>
+                {{ end }}
+              </div>
+            </div>
+          {{ end }}
+
+
           {{ if $member.work_experience }}
           <div class="work-row">
             <div class="p-work">
@@ -93,24 +111,6 @@
           </div>
           {{ end }}
 
-
-
-          {{ if $member.education }}
-          <div class="education-row">
-            <div class="p-work">
-              <i class="fas fa-graduation-cap"></i> {{ index $members_key_titles "education" | markdownify }}
-            </div>
-            <div class="work-list">
-              {{ range $index4, $education := $member.education }}
-                <div class="wp-item">
-                  <span class="wp-period">{{ $education.period | markdownify }}</span>
-                  <span class="wp-position">{{ $education.degree | markdownify }}  · </span>
-                  <span class="wp-institution">{{ $education.institution | markdownify }}</span>
-                </div>
-              {{ end }}
-            </div>
-          </div>
-          {{ end }}
 
 
 

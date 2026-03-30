@@ -25,7 +25,7 @@ job_positions:
     desc_part2: 
       title: Salary & Benefits
       icon: fas fa-calendar-alt 
-      desc:  RMB ***/year (before tax), five insurance and one fund, paid annual leave, housing support, and research funding.
+      desc:  RMB 320k–550k/year (before tax), five insurance and one fund, paid annual leave, housing support, and research funding.
 
 
   - title: Joint PhD Program

@@ -6,8 +6,10 @@
 
   <div class="col-12 col-md-3">
     <div class="pub-journal">
+      <a href="{{$item.link}}" target="_blank" >
       <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
       {{ $item.journal | markdownify | safeHTML}} ({{$item.year}})
+      </a>
     </div>
   </div>
   <div class="col-12 col-md-9">
