@@ -57,7 +57,7 @@ members:
         institution: Lanzhou Institute of Chemical Physics, Chinese Academy of Sciences
         period: Aug 2025 – Jan 2026
     education:
-      - degree: Ph.D.
+      - degree: PhD
         institution: Peking Union Medical College
         period: Sep 2020 – Jun 2025
       - degree: Bachelor
@@ -78,7 +78,7 @@ members:
         institution: University of Arizona
         period: Jul 2025-Jan 2026
     education:
-      - degree: Ph.D.
+      - degree: PhD
         institution: Nankai University
         period: Sep 2021-Jun 2025
       - degree: Master
@@ -102,7 +102,7 @@ members:
         institution: University of Arizona
         period: Jul 2025 – Jan 2026
     education:
-      - degree: Ph.D
+      - degree: PhD
         institution: China Pharmaceutical University
         period: Sep 2021 – Jun 2025
       - degree: Master
