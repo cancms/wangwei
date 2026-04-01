@@ -44,6 +44,27 @@ members_key_titles:
 members:
 
 
+  - name: Meiqin Xu
+    avatar: "images/members/xu-mei-qin.jpg"
+    position: Postdoctoral Fellow
+    join_date: March 2026
+    research: Medicinal Chemistry
+    work_experience:
+      - position: Postdoctoral Fellow
+        institution: Eastern Institute of Technology, Ningbo
+        period: Mar 2026 – Present
+      - position: Assistant Researcher
+        institution: Lanzhou Institute of Chemical Physics, Chinese Academy of Sciences
+        period: Aug 2025 – Jan 2026
+    education:
+      - degree: Ph.D.
+        institution: Peking Union Medical College
+        period: Sep 2020 – Jun 2025
+      - degree: Bachelor
+        institution: Shenyang Pharmaceutical University
+        period: Sep 2016 – Jun 2020
+    email: mqxu@eitech.edu.cn
+    
   - name: Kaixue Zhang
     avatar: "images/members/zhang-kai-xue.jpg"
     position: Postdoctoral Fellow
@@ -57,7 +78,7 @@ members:
         institution: University of Arizona
         period: Jul 2025-Jan 2026
     education:
-      - degree: Doctor
+      - degree: Ph.D.
         institution: Nankai University
         period: Sep 2021-Jun 2025
       - degree: Master
@@ -91,27 +112,7 @@ members:
         institution: Nanjing University of Chinese Medicine
         period: Sep 2014 – Jun 2018
     email: yuezhong@eitech.edu.cn
-
-  - name: Meiqin Xu
-    avatar: "images/members/xu-mei-qin.jpg"
-    position: Postdoctoral Fellow
-    join_date: March 2026
-    research: Medicinal Chemistry
-    work_experience:
-      - position: Postdoctoral Fellow
-        institution: Eastern Institute of Technology, Ningbo
-        period: Mar 2026 – Present
-      - position: Assistant Researcher
-        institution: Lanzhou Institute of Chemical Physics, Chinese Academy of Sciences
-        period: Aug 2025 – Jan 2026
-    education:
-      - degree: Ph.D.
-        institution: Peking Union Medical College
-        period: Sep 2020 – Jun 2025
-      - degree: Bachelor
-        institution: Shenyang Pharmaceutical University
-        period: Sep 2016 – Jun 2020
-    email: mqxu@eitech.edu.cn    
+ 
     
   - name: Wangxuan Dai
     avatar: "images/members/dai-wang-heng.png"

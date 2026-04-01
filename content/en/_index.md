@@ -86,7 +86,7 @@ heroBlock:
     text: |
       
       At the strategic interface of chemistry and biology, the **Wang Group** is dedicated to developing and deploying advanced chemical toolkits to dissect and modulate biological complexity. We have established a robust, integrated research paradigm spanning precision organic synthesis, transformative chemical biology, and AI-augmented drug discovery. Our mission is to engineer disruptive therapeutic strategies to address global health challenges, with a focus on oncology, neurodegeneration, and senescence.
-     
+      
       **Research Areas**
       ### Precision Synthetic Methodology
       Harnessing the power of asymmetric catalysis and photoredox chemistry to streamline the divergent construction of structurally complex and biologically privileged scaffolds. We focus on developing high-efficiency synthetic methodologies that provide rapid access to diverse chemical space for drug discovery.
